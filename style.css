@@ -152,6 +152,7 @@ h3:hover {
     letter-spacing: 1px;
 }
 
+/* Sitios de interes */
 .section_SitiosInteres {
     width: 96%;
     height: 107vh;
@@ -177,11 +178,48 @@ h3:hover {
     text-align: center;
 }
 
+.section_Item:hover {
+    background-color: #737373;
+    color: white;
+}
 
+/* Footer */
+.footer {
+    width: 86%;
+    height: 25vh;
+    background-color: white;
+    padding: 2% 7% 2% 7%;
+}
 
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: small;
+}
 
+.footer_div {
+ display: flex;
+ justify-content: space-around;
+ justify-items: center;
+ text-align: center;
+}
 
+.footer_imgEducacion {
+    width: 23%;
+    height: fit-content;
+    padding-top: 3%;
+}
 
+.footer_imgChiapas {
+    width: 14%;
+    height: fit-content;
+    padding-top: 3%;
+}
 
+#footer_a {
+    color: #1286D4;
+}
 
-
+#footer_a:hover {
+    color: #1D1D1D;
+}
