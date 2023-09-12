@@ -30,17 +30,39 @@
                 <img class="img_Social" src="./img/logo-instragam.png" alt="Instagram">
             </a>
         </div>
-
     </nav>
     <main>
 
         <div class="div_Banner">
-            <img class="img_Banner" src="./img/banner.png" alt="">
+            <!-- <img class="img_Banner" src="./img/banner.png" alt=""> -->
+
+            <!-- Inicio Slide -->
+            <div class="slider-container">
+                <div class="slides">
+                    <div class="slide" id="slide-1">
+                        <img class="img_Slide" src="./img/logo-mexico.jpg" alt="Slide 1">
+                    </div>
+                    <div class="slide" id="slide-2">
+                        <img class="img_Slide" src="./img/logo-bienvenidoUp.jpg" alt="Slide 2">
+                    </div>
+                    <div class="slide" id="slide-3">
+                        <img class="img_Slide" src="./img/banner.png" alt="Slide 3">
+                    </div>
+                    <div class="slide" id="slide-4">
+                        <img class="img_Slide" src="./img/logo-congreso.jpg" alt="Slide 4">
+                    </div>
+                </div>
+
+                <button class="prev-slide">&#8678;</button>
+                <button class="next-slide">&#8680;</button>
+            </div>
+            <!-- Fin Slide -->
+
         </div>
         <section class="section_Menu">
             <ul><a href="">NOSOTROS</a></ul>
             <ul><a href="">SERVICIOS</a></ul>
-            <ul><a href="">VNCULACIÓN_UNIVERSITARIA</a></ul>
+            <ul><a href="">VINCULACIÓN_UNIVERSITARIA</a></ul>
             <ul><a href="">INCUBADORA</a></ul>
             <ul><a href="">INVESTIGACIÓN</a></ul>
         </section>
@@ -52,51 +74,81 @@
                 <div class="section_Noticias_divImg">
                     <div class="noticias_div">
                         <img class="noticias_img" src="./img/logo_Proyecto.jpg" alt="">
-                        <p>08 de septiembre de 2023</p>
+                        <h3 class="noticias_h3">08 de septiembre de 2023</h3>
+                        <div class="overlay">
+                            <p class="overlay-text">Proyecto CONAHCYT-PRONACES “Incorporación de biocombustibles líquidos a la cadena de consumo local</p>
+                        </div>
                     </div>
                     <div class="noticias_div">
                         <img class="noticias_img" src="./img/logo_TerritorioUp.jpg" alt="">
-                        <p>07 de septiembre de 2023</p>
+                        <h3 class="noticias_h3">07 de septiembre de 2023</h3>
+                        <div class="overlay">
+                            <p class="overlay-text">BIENVENIDOS AL TERRITORIO UP</p>
+                        </div>
                     </div>
                     <div class="noticias_div">
                         <img class="noticias_img" src="./img/logo_InicioCuatrimestre.jpg" alt="">
-                        <p>31 de agosto de 2023</p>
+                        <h3 class="noticias_h3">31 de agosto de 2023</h3>
+                        <div class="overlay">
+                            <p class="overlay-text">Exitoso inicio de cuatrimestre a nuestros estudiantes de ingenierías y licenciatura</p>
+                        </div>
                     </div>
                     <div class="noticias_div">
                         <img class="noticias_img" src="./img/logo_ReunionNacional.jpg" alt="">
-                        <p>30 de agosto de 2023</p>
+                        <h3 class="noticias_h3">30 de agosto de 2023</h3>
+                        <div class="overlay">
+                            <p class="overlay-text">Segunda Reunión Nacional 2023 de rectoras y rectores del subsistema tecnológico</p>
+                        </div>
                     </div>
                 </div>
                 <div>
                     <div class="section_Noticias_divImg">
                         <div class="noticias_div">
                             <img class="noticias_img" src="./img/logo_Capacitacion.jpg" alt="">
-                            <p>08 de septiembre de 2023</p>
+                            <h3 class="noticias_h3">08 de septiembre de 2023</h3>
+                            <div class="overlay">
+                                <p class="overlay-text">Capacitación y evaluación del sistema capacitador EC 1165 a profesores de tiempo completo de la UPChiapas</p>
+                            </div>
                         </div>
                         <div class="noticias_div">
                             <img class="noticias_img" src="./img/logo_Reacreditacion.jpg" alt="">
-                            <p>07 de septiembre de 2023</p>
+                            <h3 class="noticias_h3">07 de septiembre de 2023</h3>
+                            <div class="overlay">
+                                <p class="overlay-text">Re-acreditación del Programa Académico de Ingeniería Agroindustrial ante el Consejo de Acreditación de la Enseñanza de la Ingeniería, A. C. (CACEI)</p>
+                            </div>
                         </div>
                         <div class="noticias_div">
                             <img class="noticias_img" src="./img/logo_CursoInduccion.jpg" alt="">
-                            <p>31 de agosto de 2023</p>
+                            <h3 class="noticias_h3">31 de agosto de 2023</h3>
+                            <div class="overlay">
+                                <p class="overlay-text">Curso de Inducción en la UPChiapas</p>
+                            </div>
                         </div>
                         <div class="noticias_div">
                             <img class="noticias_img" src="./img/logo_Mantenimiento.jpg" alt="">
-                            <p>30 de agosto de 2023</p>
+                            <h3 class="noticias_h3">30 de agosto de 2023</h3>
+                            <div class="overlay">
+                                <p class="overlay-text">Mantenimiento preventivo y correctivo a los equipos médicos de la facultad de medicina de la Universidad Autónoma de Chiapas</p>
+                            </div>
                         </div>
                     </div>
                     <div class="section_Noticias_img">
                         <div class="section_Noticias_VerMas">
-                            <h3>Ver más noticias.</h3>
+                            <a id="noticias_a">Ver más noticias.</a>
                         </div>
                     </div>
                 </div>
         </section>
         <section class="section_Alianzas">
             <h2 id="h2_alianza">Alianzas estratégicas</h2>
-            <div class="">
-
+            <div class="containerAlianza">
+                <img class="imgAlianza" src="img/iso-9001.png" alt="">
+                <img class="imgAlianza" src="img/logo-anuies-65.png" alt="">
+                <img class="imgAlianza" src="img/logo_conacyt.png" alt="">
+                <img class="imgAlianza" src="img/ETSLogo.png" alt="">
+                <img class="imgAlianza" src="img/logo_utyp.png" alt="">
+                <img class="imgAlianza" src="img/logo-iaip.png" alt="">
+                <img class="imgAlianza" src="img/google.png" alt="">
             </div>
         </section>
         <section class="section_SitiosInteres">
@@ -155,5 +207,29 @@
         </div>
     </footer>
 </body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const slides = document.querySelector(".slides");
+        const prevBtn = document.querySelector(".prev-slide");
+        const nextBtn = document.querySelector(".next-slide");
+
+        let currentIndex = 0;
+
+        prevBtn.addEventListener("click", () => {
+            currentIndex = (currentIndex - 1 + 4) % 4;
+            updateSlider();
+        });
+
+        nextBtn.addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % 4;
+            updateSlider();
+        });
+
+        function updateSlider() {
+            slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+    });
+</script>
 
 </html>
