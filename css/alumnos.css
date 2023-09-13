@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header {
+    background-color: #fff;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    z-index: 9000;
+}
+
+#header #main_logo {
+    padding: 7px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 40px;
+    position: absolute;
+    left: 2px;
+}
+
+#main_menu {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#main_menu ul li a {
+    padding: 0 20px;
+    display: block;
+    cursor: pointer;
+    color: #1D1D1D;
+    height: 50px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: 750;
+}
+
+#header .social_holder {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+#header .social_holder img {
+    height: 24px;
+    margin: 12px 16px;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.column {
+    padding: 10px; /* Añade espacio entre las columnas si lo deseas */
+    display: flex;
+    align-items: center; /* Centrar verticalmente dentro de cada columna */
+    gap: 10px; /* Espacio entre elementos dentro de cada columna */
+}
+
+.image_button_nocolor img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del botón */
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#tabla{
+    display: none;
+}
+
+#tabla1{
+    display: none;
+}
+
+#tabla2{
+    display: none;
+}
+
+#boton{
+    color: #FAFAFA;
+    background: #3c3c3c;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.3);
+    font-size: 20px;
+    width: 90%;
+    height: 50px;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    display: block;
+}
+
+#boton:hover {
+    background-color: #202020; /* Cambiamos el color de fondo al pasar el mouse */
+}
+
+#boton1{
+    color: #FAFAFA;
+    background: #3c3c3c;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.3);
+    font-size: 20px;
+    width: 90%;
+    height: 50px;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    display: block;
+}
+
+#boton1:hover {
+    background-color: #202020; /* Cambiamos el color de fondo al pasar el mouse */
+}
+
+#boton2{
+    color: #FAFAFA;
+    background: #3c3c3c;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.3);
+    font-size: 20px;
+    width: 90%;
+    height: 50px;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    display: block;
+}
+
+#boton2:hover {
+    background-color: #202020; /* Cambiamos el color de fondo al pasar el mouse */
+}
+
+.has_menu {
+    width: 80% !important;
+    margin-left: 20%;
+}
+
+.seccion {
+    width: 100%;
+    background: #FAFAFA;
+    color: #1D1D1D;
+    position: relative;
+}
+
+.panel_vertical_menu {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    z-index: 1000;
+    width: 20%;
+    height: 100%;
+    padding: 0;
+    background: #FAFAFA;
+    border-right: 1px solid rgba(150, 150, 150, 0.3);
+    overflow-y: scroll;
+}
+
+.colorset9 {
+    background-color: #bcbbba;
+    color: #ffffff;
+}
+
+.panel_vertical_menu ul li a {
+    color: #1D1D1D;
+    transition: background-color 0.8s, color 0.5s;
+    padding: 10px;
+    display: block;
+    line-height: 1.8em;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.3);
+}
+
+.articulo h1 {
+    font-size: 25pt;
+    margin-bottom: 10px;
+    width: 100%;
+    line-height: 32pt;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.fecha_articulo {
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #1D1D1D;
+    padding-top: 6px;
+    padding-bottom: 40px;
+    font-size: 80%;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.footer-container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    position: relative;
+    height: 30%;
+}
+
+div.logoSecretaria{
+    color: white;
+    grid-column: 1 / 1;
+    grid-row: 1;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-Secre{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+div.informacion > h5{
+    color: #212529;
+    text-align: center;
+    align-content: center;
+}
+
+div.informacion > h5{
+    color: #212529;
+    text-align: center;
+    align-content: center;
+}
+/*************************************************************************************/
+@media (hover:hover) {
+    div.menu ul > li > a:hover{
+        color: rgb(250, 75, 11);
+    }
+}
+
+div.logoGobiChiapas{
+    width: 80%;
+    color: white;
+}
+
+.logo-GobiChiapas{
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.ok_button {
+    background-color: #a6a6a6;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.6s
+}
+
+.ok_button_old {
+    background-color: #28920E;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.6s
+}
+
+.ok_button:hover {
+    background-color: #737373
+}
+
+.ok_button_old:hover {
+    background-color: #A4D569
+}
+
+.h_menu {
+    display: block;
+    list-style: none;
+    padding: 0px;
+    margin: 2px
+}
+
+.h_menu li {
+    display: inline-block;
+    margin: 14px 0;
+    padding: 0
+}
+
+.h_menu li a {
+    margin: 0;
+    padding: 30px 60px;
+    line-height: 70px;
+    font-size: 140%;
+    font-family: Kanit, Serif;
+    font-weight: 400
+}

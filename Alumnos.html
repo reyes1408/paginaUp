@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <!-- Titulo y CSS de la Página -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/alumnos.css">
+    <title>Universidad Politecnica de Chiapas</title>
+</head>
+
+    <!-- Cuerpo de la Página -->
+
+<body>
+    <header>
+        <nav>
+            <div id="header">
+
+    <!-- Logo de la Página -->
+
+                <div id="main_logo">
+                    <a href="/Pagina Up/Pagina UPChiapas.html">
+                        <img src="./img/logo-upch.png" height="36px";>
+                    </a>
+                </div>
+                
+    <!-- Botones de navegación de la Página -->
+
+                <div id="main_menu">
+                    <ul>
+                        <li><a href="./index2.html">INICIO</a></li>
+                        <li><a href="./OfertaEducativa.html">OFERTA EDUCATIVA</a></li>
+                        <li><a href="./Alumnos.html">ALUMNOS</a></li>
+                        <li><a href="./Aspirantes.html">ASPIRANTES</a></li>
+                        <li><a href="./Egresados.html">EGRESADOS</a></li>
+                        <li><a href="./Transparencia.html">TRANSPARENCIA</a></li>
+                    </ul>
+                </div>
+
+    <!-- Redes sociales de la Página -->
+
+                <div class="social_holder">
+                    <a href="https://www.facebook.com/PolitecnicaChis">
+                        <img src="./img/logo-facebook.png" height="30">
+                    </a>
+                    <a href="https://www.instagram.com/upchiapas/">
+                        <img src="./img/logo-instragam.png" height="30">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <!-- Slider o Carrusel de las imagenes -->
+    <div class="seccion has_menu">
+        <div class="contenedor1">
+            <div class="articulo">
+                <h1>Becas</h1>
+                <p class="fecha_articulo"></p>
+                <ul>
+                    <li>
+                    <button id="boton" onclick="mostrar();">Becas del Gobierno Federal     &nbsp    &nbsp   &nbsp   &nbsp   &nbsp   &nbsp  +</button>
+                    <div id="tabla">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Para acceder a las becas del Gobierno Federal se debe:</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>Ingresar al Módulo para becarios.<a href="https://subes.becasbenitojuarez.gob.mx/registro/" style="display: inline; padding: 0px;">https://subes.becasbenitojuarez.gob.mx/registro/</a>.</li>
+                                        <li>Realizar el proceso de registro en SUBES.</li>
+                                        <li>Los requisitos están sujetos a las bases establecidas en las Convocatorias publicadas.</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Convocatorias Becas disponibles</strong><br>
+                                    Ingresar a la página<a href="https://www.gob.mx/becasbenitojuarez" style="display: inline; padding: 0px;">https://www.gob.mx/becasbenitojuarez</a>.
+                                </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                    <button id="boton1" onclick="mostrar1();">Becas del Gobierno del Estado     &nbsp    &nbsp   &nbsp   &nbsp +</button>
+                    <div id="tabla1">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Instituto de Ciencia, Tecnología e Innovación del Estado de Chiapas.<br>
+                                    - Requisitos sujetos a las bases establecidas en las Convocatorias publicadas.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Convocatorias Becas disponibles</strong><br>
+                                    - Ingresar a la página<a href="https://icti.chiapas.gob.mx/convocatorias/" style="display: inline; padding: 0px;">https://icti.chiapas.gob.mx/convocatorias/</a>.
+                                </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                    <button id="boton2" onclick="mostrar2();">Becas Universitarias     &nbsp    &nbsp   &nbsp   &nbsp   &nbsp   &nbsp     &nbsp    &nbsp   &nbsp   &nbsp   &nbsp   &nbsp    +</button>
+                    <div id="tabla2">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Beca de cuadro de honor</strong> (condonación pago reinscripción)<br>
+                                    Criterios:
+                                        <li>Estar dentro de los tres mejores promedios de cada carrera, del cuatrimestre inmediato anterior, al que se cursa actualmente.</li>
+                                        <li>Tener la calidad de alumno regular, estar inscrito y sin rezago académico.&nbsp;</li>
+                                        <li>Cursar las materias de acuerdo al plan de estudios, (carga normal de siete materias (únicamente ubicación de inglés bajo revisión)).</li>
+                                        <li>Vía correo institucional se notifica a los alumnos beneficiados.</li>
+                                    Los/as estudiantes son notificados por correo institucional, únicamente cargarán materias de acuerdo al calendario escolar en el Platinum, después de la fecha no aplica beca.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Becas académicas –</strong> (descuento del 50% en la reinscripción)<br>
+                                    Criterios:
+                                        <li>Tener promedio como mínimo 9.5, en el cuatrimestre inmediato anterior, al que se cursa actualmente.</li>
+                                        <li>Tener la calidad de alumno regular, estar inscrito y sin rezago académico.&nbsp;</li>
+                                        <li>Cursar las materias de acuerdo al plan de estudios, (carga normal de siete materias (únicamente ubicación de inglés bajo revisión)).</li>
+                                        <li>Los/as estudiantes son notificados por correo institucional, se anexa formato de pago, únicamente cargarán materias de acuerdo al calendario escolar en el Platinum, después de la fecha no aplica beca.</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Beca deportiva (descuento 30% de reinscripción)</strong><br>
+                                    Criterios:
+                                        <li>Tener promedio mínimo de 8.5, en el cuatrimestre inmediato anterior, al que se cursa actualmente.</li>
+                                        <li>Tener la calidad de alumno regular, estar inscrito y sin rezago académico.&nbsp;</li>
+                                        <li>Ser regular en la asistencia de la actividad extracurricular.</li>
+                                        <li>Aplica a partir del segundo cuatrimestre.</li>
+                                    Los/as estudiantes son notificados por correo institucional, se anexa formato de pago, únicamente cargarán materias de acuerdo al calendario escolar en el Platinum, después de la fecha no aplica beca.&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel_vertical_menu">
+        <h2 class="center colorset9">
+            Alumnos
+        </h2>
+        <ul class="vertical_menu">
+            <li>
+                <a href="media/2956/files/Reinscripciones Septiembre 2023.pdf">
+                    Reinscripciones Septiembre - Diciembre 2023
+                </a>
+            </li>
+            <li>
+                <a href="#Becas" onclick="toTop('Becas')">
+                    Becas
+                </a>
+            </li>
+            <li>
+                <a href="#Biblioteca" onclick="toTop('Biblioteca')">
+                    Biblioteca
+                </a>
+            </li>
+            <li>
+                <a href="#DAICU" onclick="toTop('DAICU')">
+                    DAICU
+                </a>
+            </li>
+            <li>
+                <a href="#Estancias_y_Estadias" onclick="toTop('Estancias_y_Estadias')">
+                    Estancias y Estadías
+                </a>
+            </li>
+            <li>
+                <a href="media/121/files/Calendario 2023 - 2024.pdf">
+                    Calendario Escolar 2023 - 2024
+                </a>
+            </li>
+        </ul>
+    </div>
+
+        <!-- Pide de Página -->
+
+        <footer class="footer-container">
+            <div class="logoSecretaria">
+                <img class="logo-Secre" src="./img/logo_Educacion.png">
+            </div>
+    
+            <div class="informacion">
+                <h5>Suchiapa
+                    <br>
+                    Carretera Tuxtla Gutierrez. - Portillo Zaragoza Km 21+500
+                    <br>
+                    Col. Las Brisas; Suchiapa, Chiapas. CP.29150. Teléfono: 01961 61
+                    <br>
+                    71460
+                    <br>
+                    Suchiapa, Chiapas.
+                </h5>
+            </div>
+    
+            <div class="logoGobiChiapas">
+                <img class="logo-GobiChiapas" src="./img/logo_Chiapas.png">
+            </div>
+        </footer>
+    <script src="/Pagina Up/alumnos.js"></script>
+</body>
+</html>
